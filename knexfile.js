@@ -7,8 +7,6 @@ module.exports = {
     connection: {
       host: '127.0.0.1',
       database: 'lessonpal_local',
-      user: 'yuvraj',
-      password: 'Tihom81999',
     },
   },
 };
