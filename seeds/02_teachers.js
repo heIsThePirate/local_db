@@ -1,10 +1,9 @@
 const teachersLocal = require('../data/teachersLocal');
 
 exports.seed = function(knex) {
-  // Deletes ALL existing entries
-  return knex('teachers').del()
-    .then(function () {
-      // Inserts seed entries
+  return knex('teachers')
+    .del()
+    .then(function() {
       return knex('teachers').insert(teachersLocal);
     });
 };

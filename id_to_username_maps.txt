@@ -1,0 +1,10 @@
+// Creating id and username maps to be used for testing when a test uses multiple tables and/or IDs and a random ID doesn't work-out.
+{
+  "id": "1a3ec8b8-d393-487f-aa49-684c0314e049",
+  "username": "heIsThePirate"
+}
+
+{
+  "id": "5c451428-3ae9-4de6-bf25-1ec4f38bd530",
+  "username": "mohitSingh_0001"
+}
